@@ -18,6 +18,24 @@ Clone this repo and install the NPM packages.
 $ git clone --
 $ npm install
 ```
+
+Run this to deploy to your AWS account.
+
+``` bash
+$ serverless deploy
+```
+
+Create a record(like below) in DynamoDb created by above serverless deploy command.
+
+``` bash
+{
+  "accountId": "1cc0b498-69cb-11ea-bc55-0242ac130003",
+  "createdAt": 1584663544729,
+  "logUsage": 195,
+  "updatedAt": 1584663544729
+}
+```
+
 Run get account usage API on local.
 
 ``` bash
@@ -71,10 +89,4 @@ Run unit test.
 
 ``` bash
 $ npm test
-```
-
-Finally, run this to deploy to your AWS account.
-
-``` bash
-$ serverless deploy
 ```
