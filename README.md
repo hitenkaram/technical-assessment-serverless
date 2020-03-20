@@ -25,7 +25,7 @@ Run this to deploy to your AWS account.
 $ serverless deploy
 ```
 
-Create a record(like below) in DynamoDb created by above serverless deploy command.
+Create a record(like below) in DynamoDb table(created by above serverless deploy command).
 
 ``` bash
 {
