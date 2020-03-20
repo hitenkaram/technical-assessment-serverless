@@ -2,6 +2,8 @@
 
 This repo is for the serverless backend API, build only for technical assessment.
 
+Refer [Design Document](https://github.com/hitenkaram/technical-assessment-serverless/blob/master/ADR.md)
+
 #### Usage
 
 To use this repo locally you need to have the [Serverless framework](https://serverless.com) installed.
@@ -64,6 +66,11 @@ Where, `event.json` contains the request event info and looks something like thi
     ]
 }
 
+```
+Run unit test.
+
+``` bash
+$ npm test
 ```
 
 Finally, run this to deploy to your AWS account.
