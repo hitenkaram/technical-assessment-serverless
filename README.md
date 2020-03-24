@@ -90,3 +90,14 @@ Run unit test.
 ``` bash
 $ npm test
 ```
+
+#### Not part of the repo
+2. ** Code for persisting logs to S3 & Unit tests for DB - CRUD layer **
+3. ** Create and Delete feature service(only read and update are part of this repo) **
+4. ** API docuementation - Validate requests at API level, declare request/response models **
+5. ** API to Lambda - Non-Proxy Integration **
+6. ** Caching at different layers - Cloudfront, API, Lambda, DAX, Elasticache **
+7. ** Middlewares like Middy or dazn-lambda-powertools **
+7. ** Creation of table, SNS and Subscriptio of Lambda to SNS **
+8. ** Kinesis to stream data entry events **
+9. ** Prod readiness - Authentication/API key(throttling/quota/usage), WAF, Cloudfront, Route53 **
