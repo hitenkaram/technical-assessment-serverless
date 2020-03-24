@@ -92,12 +92,12 @@ $ npm test
 ```
 
 #### Not part of the repo
-Code for persisting logs to S3 & Unit tests for DB - CRUD layer
-Create and Delete feature service(only read and update are part of this repo)
-API docuementation - Validate requests at API level, declare request/response models
-API to Lambda - Non-Proxy Integration
-Caching at different layers - Cloudfront, API, Lambda, DAX, Elasticache
-Middlewares like Middy or dazn-lambda-powertools
-Creation of table, SNS and Subscriptio of Lambda to SNS
-Kinesis to stream data entry events
-Prod readiness - Authentication/API key(throttling/quota/usage), WAF, Cloudfront, Route53 
+* Code for persisting logs to S3 & Unit tests for DB - CRUD layer
+* Create and Delete feature service(only read and update are part of this repo)
+* API docuementation - Validate requests at API level, declare request/response models
+* API to Lambda - Non-Proxy Integration
+* Caching at different layers - Cloudfront, API, Lambda, DAX, Elasticache
+* Middlewares like Middy or dazn-lambda-powertools
+* Creation of table, SNS and Subscriptio of Lambda to SNS
+* Kinesis to stream data entry events
+* Prod readiness - Authentication/API key(throttling/quota/usage), WAF, Cloudfront, Route53 
